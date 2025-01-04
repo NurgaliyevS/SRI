@@ -11,7 +11,7 @@ export default function MushroomPowerPage() {
       <p className="text-sm text-gray-500 mb-6">Published on May 15, 2023</p>
 
       <Image
-        src="https://res.cloudinary.com/dp5ules9k/image/upload/v1686261648/Tmolecule/organic-mushrooms_abcdef.jpg"
+        src="https://res.cloudinary.com/dp5ules9k/image/upload/v1686261648/Tmolecule/collagen_mnopqr.jpg"
         alt="Various medicinal mushrooms"
         width={800}
         height={600}

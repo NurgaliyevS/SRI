@@ -14,12 +14,6 @@ const ingredientImage2 =
   "https://res.cloudinary.com/dp5ules9k/image/upload/v1733093773/Tmolecule/2-BANNER_2000x619_wvyrmg.jpg";
 const supplementFactsImage =
   "https://res.cloudinary.com/dp5ules9k/image/upload/v1686261648/Tmolecule/Supplement-Facts-for-14-mushroom-blend_1_qqt1em.png";
-const mushroomImage =
-  "https://res.cloudinary.com/dp5ules9k/image/upload/v1686261648/Tmolecule/organic-mushrooms_abcdef.jpg";
-const lavenderImage =
-  "https://res.cloudinary.com/dp5ules9k/image/upload/v1686261648/Tmolecule/organic-lavender_ghijkl.jpg";
-const collagenImage =
-  "https://res.cloudinary.com/dp5ules9k/image/upload/v1686261648/Tmolecule/collagen_mnopqr.jpg";
 const teaImage =
   "https://res.cloudinary.com/dp5ules9k/image/upload/v1733094241/Tmolecule/1-BANNER_2000x500_bf0c7d47-9398-485e-9fbf-2e15e7299562_yqz32q.jpg";
 

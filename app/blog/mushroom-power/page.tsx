@@ -6,7 +6,7 @@ export default function MushroomPowerPage() {
   return (
     <article className="container mx-auto px-6 py-12 max-w-3xl">
       <h1 className="text-4xl font-bold text-purple-800 mb-6">
-        Harnessing the Power of Medicinal Mushrooms
+        The Magic of Medicinal Mushrooms
       </h1>
       <p className="text-sm text-gray-500 mb-6">Published on May 15, 2023</p>
 

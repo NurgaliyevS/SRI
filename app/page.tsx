@@ -77,13 +77,13 @@ export default function Home() {
           </div>
         </div>
 
-        {/* Right column for product information */}
+        {/* Right column with updated text */}
         <div className="md:w-1/2">
           <h1 className="text-4xl font-bold text-purple-800 mb-4">
-            Elevate Your Wellness
+            Improve Your Wellness
           </h1>
           <p className="text-xl text-gray-600 mb-8">
-            Experience the power of nature with our premium adaptogen blend.
+            Feel better with premium adaptogen ingredients.
           </p>
           <Button
             asChild
@@ -93,34 +93,34 @@ export default function Home() {
           </Button>
 
           <h2 className="text-2xl font-semibold text-purple-800 mb-4 mt-8">
-            Key Ingredients
+            Premium Natural Ingredients
           </h2>
           <div className="space-y-4 mb-8">
             <div className="bg-white rounded-lg shadow-md p-4">
               <h3 className="text-lg font-semibold text-purple-700 mb-2">
-                Organic Mushrooms - 14 Mushroom Blend
+                Organic Mushrooms
               </h3>
               <p className="text-gray-600">
-                Boost your immune system and cognitive function with our
-                carefully selected organic mushrooms.
+                Mushrooms that help you stay healthy and think better. Like
+                having a shield for your body!
               </p>
             </div>
             <div className="bg-white rounded-lg shadow-md p-4">
               <h3 className="text-lg font-semibold text-purple-700 mb-2">
-                Organic French Lavender
+                Organic Lavender
               </h3>
               <p className="text-gray-600">
-                Promote relaxation and reduce stress with the soothing
-                properties of organic lavender.
+                Sweet-smelling flowers that help you relax and sleep better,
+                just like a warm hug.
               </p>
             </div>
             <div className="bg-white rounded-lg shadow-md p-4">
               <h3 className="text-lg font-semibold text-purple-700 mb-2">
-                Collagen Peptides
+                Collagen
               </h3>
               <p className="text-gray-600">
-                Support skin health, joint function, and overall vitality with
-                our premium collagen.
+                Natural protein that makes your skin glow, hair shine, and helps
+                your joints move better.
               </p>
             </div>
           </div>
@@ -129,19 +129,19 @@ export default function Home() {
             Health Benefits
           </h2>
           <ul className="list-disc pl-6 text-gray-600 space-y-2 mb-8">
-            <li>Supports stress adaptation and resilience</li>
-            <li>Enhances cognitive function and mental clarity</li>
-            <li>Boosts immune system function</li>
-            <li>Promotes relaxation and improves sleep quality</li>
-            <li>Supports skin health and collagen production</li>
-            <li>Aids in joint health and flexibility</li>
+            <li>Natural stress relief and improved resilience</li>
+            <li>Improved attention and mental clarity</li>
+            <li>Immune system booster</li>
+            <li>Better sleep and deeper relaxation</li>
+            <li>Shinning skin and collagen production</li>
+            <li>Improved joint health and comfort</li>
           </ul>
         </div>
       </div>
 
       <section className="mt-16">
         <h2 className="text-3xl font-semibold text-purple-800 mb-6">
-          Lifestyle Integration
+          Lifestyle For You
         </h2>
         <div className="grid md:grid-cols-2 gap-8">
           <div>
@@ -153,8 +153,8 @@ export default function Home() {
               className="rounded-lg shadow-md"
             />
             <p className="mt-4 text-gray-600">
-              Incorporate our Adaptogen Blend into your daily wellness routine
-              for optimal results.
+              Take <strong>Adaptogen Blend</strong> daily with breakfast - feel
+              amazing all day long
             </p>
           </div>
           <div>
@@ -174,7 +174,7 @@ export default function Home() {
 
       <section className="mt-16">
         <h2 className="text-3xl font-semibold text-purple-800 mb-6">
-          Latest from Our Blog
+          Discover More Wellness Insights
         </h2>
         <div className="grid md:grid-cols-2 gap-8">
           <Link
@@ -186,7 +186,7 @@ export default function Home() {
             </h3>
             <p className="text-gray-600">
               Discover how adaptogens can help you manage stress and improve
-              overall well-being.
+              overall well-being
             </p>
           </Link>
           <Link
@@ -194,11 +194,11 @@ export default function Home() {
             className="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow"
           >
             <h3 className="text-xl font-semibold text-purple-700 mb-2">
-              Harnessing the Power of Medicinal Mushrooms
+              The Magic of Medicinal Mushrooms
             </h3>
             <p className="text-gray-600">
-              Learn about the incredible health benefits of various medicinal
-              mushrooms.
+              Find out why these special mushrooms are nature's best health
+              helpers
             </p>
           </Link>
         </div>

@@ -10,10 +10,10 @@ export default function Footer() {
             <h3 className="text-purple-800 text-lg font-semibold mb-2">
               Adaptogen Blend
             </h3>
-            <p className="text-gray-600">Enhancing your wellness naturally</p>
+            <p className="text-gray-600">Improve Your Wellness</p>
           </div>
           <div className="w-full md:w-1/5 mb-6 md:mb-0">
-            <h4 className="text-gray-900 font-semibold mb-2">Quick Links</h4>
+            <h4 className="text-gray-900 font-semibold mb-2">Links</h4>
             <ul className="text-gray-600">
               <li>
                 <Link href="/" className="hover:text-purple-600">

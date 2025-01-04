@@ -16,7 +16,7 @@ const products = [
       "Our signature blend of 14 Organic Mushrooms, organic French Lavender, Collagen.",
     price: 39.99,
     image: bottleImage,
-    stripeLink: process.env.NEXT_PUBLIC_STRIPE_ORIGINAL_LINK,
+    stripeLink: "https://buy.stripe.com/00g8zS1YJ2gx9G0dQT",
     inStock: true,
   },
   {
@@ -26,7 +26,7 @@ const products = [
       "A more potent version of our signature blend for those needing extra support.",
     price: 49.99,
     image: extraStrengthImage,
-    stripeLink: process.env.NEXT_PUBLIC_STRIPE_EXTRA_STRENGTH_LINK,
+    stripeLink: "",
     inStock: false,
   },
   {
@@ -36,7 +36,7 @@ const products = [
       "Specially formulated to promote restful sleep and relaxation.",
     price: 44.99,
     image: sleepFormulaImage,
-    stripeLink: process.env.NEXT_PUBLIC_STRIPE_SLEEP_FORMULA_LINK,
+    stripeLink: "",
     inStock: false,
   },
 ];
@@ -73,7 +73,7 @@ export default function ProductList() {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    Add to Cart
+                    Buy now
                   </a>
                 </Button>
               ) : (
@@ -85,7 +85,7 @@ export default function ProductList() {
                     disabled
                     className="opacity-50 cursor-not-allowed bg-gradient-to-r from-gray-400 to-gray-500"
                   >
-                    Add to Cart
+                    Buy now
                   </Button>
                 </div>
               )}

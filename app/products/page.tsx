@@ -66,12 +66,13 @@ export default function ProductList() {
               {product.inStock ? (
                 <Button
                   asChild
-                  className="bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600 transition-all duration-300"
+                  className="bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600 transition-all duration-300 px-6 py-4 text-lg font-semibold shadow-lg hover:shadow-xl"
                 >
                   <a
                     href={product.stripeLink}
                     target="_blank"
                     rel="noopener noreferrer"
+                    className="flex items-center gap-2"
                   >
                     Buy now
                   </a>
@@ -83,7 +84,7 @@ export default function ProductList() {
                   </span>
                   <Button
                     disabled
-                    className="opacity-50 cursor-not-allowed bg-gradient-to-r from-gray-400 to-gray-500"
+                    className="opacity-50 cursor-not-allowed bg-gradient-to-r from-gray-400 to-gray-500 px-6 py-4 text-lg"
                   >
                     Buy now
                   </Button>

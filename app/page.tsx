@@ -93,12 +93,12 @@ export default function Home() {
           </p>
           <Button
             asChild
-            className="mb-8 bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600 transition-all duration-300"
+            className="bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600 transition-all duration-300 px-6 py-4 text-lg font-semibold shadow-lg hover:shadow-xl"
           >
             <Link href="/products">Shop Now</Link>
           </Button>
 
-          <h2 className="text-2xl font-semibold text-purple-800 mb-4">
+          <h2 className="text-2xl font-semibold text-purple-800 mb-4 mt-8">
             Key Ingredients
           </h2>
           <div className="space-y-4 mb-8">

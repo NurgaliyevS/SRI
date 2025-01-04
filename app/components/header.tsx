@@ -1,5 +1,4 @@
 import Link from "next/link"
-import { ShoppingCart } from "lucide-react"
 
 export default function Header() {
   return (
@@ -13,9 +12,6 @@ export default function Header() {
             <Link href="/" className="text-gray-700 hover:text-purple-600">Home</Link>
             <Link href="/products" className="text-gray-700 hover:text-purple-600">Products</Link>
             <Link href="/blog" className="text-gray-700 hover:text-purple-600">Blog</Link>
-            <Link href="/cart" className="text-gray-700 hover:text-purple-600">
-              <ShoppingCart />
-            </Link>
           </div>
         </div>
       </nav>

@@ -37,17 +37,6 @@ export default function Footer() {
             <p className="text-gray-600">Email: support@tmolecule.com</p>
             <p className="text-gray-600">Phone: (866)708-4991</p>
           </div>
-          <div className="w-full md:w-1/5">
-            <h4 className="text-gray-900 font-semibold mb-2">Newsletter</h4>
-            <p className="text-gray-600 mb-2">
-              Stay updated with our latest news and offers.
-            </p>
-            <input
-              type="email"
-              placeholder="Enter your email"
-              className="w-full px-3 py-2 text-gray-700 border border-neutral-200 rounded-md focus:outline-none focus:ring-2 focus:ring-purple-600 dark:border-neutral-800"
-            />
-          </div>
           <div className="w-full md:w-1/5 mt-6 md:mt-0">
             <h4 className="text-gray-900 font-semibold mb-2">Follow Us</h4>
             <div className="flex space-x-4">

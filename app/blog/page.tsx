@@ -44,7 +44,9 @@ const blogPosts = [
 export default function BlogPage() {
   return (
     <div className="container mx-auto px-6 py-12">
-      <h1 className="text-4xl font-bold text-purple-800 mb-8">Our Blog</h1>
+      <h1 className="text-4xl font-bold text-purple-800 mb-8">
+        Discover More Wellness Insights
+      </h1>
       <div className="grid gap-8 md:grid-cols-2">
         {blogPosts.map((post) => (
           <Link

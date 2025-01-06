@@ -6,10 +6,13 @@ export default function Header() {
       <nav className="container mx-auto px-6 py-6">
         <div className="flex justify-between items-center">
           <Link href="/" className="text-2xl font-bold text-purple-800">
-            Adaptogen Blend
+            TMolecule
           </Link>
           <div className="flex items-center space-x-4">
-            <Link href="/" className="text-gray-700 hover:text-purple-600 text-base">
+            <Link
+              href="/"
+              className="text-gray-700 hover:text-purple-600 text-base"
+            >
               Home
             </Link>
             <Link
@@ -18,7 +21,10 @@ export default function Header() {
             >
               Products
             </Link>
-            <Link href="/blog" className="text-gray-700 hover:text-purple-600 text-base">
+            <Link
+              href="/blog"
+              className="text-gray-700 hover:text-purple-600 text-base"
+            >
               Blog
             </Link>
           </div>

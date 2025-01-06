@@ -8,7 +8,7 @@ export default function Footer() {
         <div className="flex flex-wrap justify-between">
           <div className="w-full md:w-1/5 mb-6 md:mb-0">
             <h3 className="text-purple-800 text-lg font-semibold mb-2">
-              Adaptogen Blend
+              TMolecule
             </h3>
             <p className="text-gray-600">Improve Your Wellness</p>
           </div>

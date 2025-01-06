@@ -4,6 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { Button } from "./components/ui/button";
 import { useRouter } from "next/navigation";
+import { useState } from "react";
 
 const bottleImage =
   "https://res.cloudinary.com/dp5ules9k/image/upload/v1733093773/Tmolecule/BOTTLE_hb6jya.png";
@@ -20,6 +21,51 @@ const supplementFactsImage =
 const teaImage =
   "https://res.cloudinary.com/dp5ules9k/image/upload/v1733094241/Tmolecule/1-BANNER_2000x500_bf0c7d47-9398-485e-9fbf-2e15e7299562_yqz32q.jpg";
 
+interface ImageGalleryProps {
+  mainImage: string;
+  thumbnails: string[];
+  onImageClick: (e: React.MouseEvent<HTMLImageElement, MouseEvent>) => void;
+}
+
+function ImageGallery({ mainImage, thumbnails, onImageClick }: ImageGalleryProps) {
+  const [selectedImage, setSelectedImage] = useState(mainImage);
+
+  return (
+    <div className="flex flex-col gap-4">
+      <div className="relative w-full aspect-square">
+        <Image
+          src={selectedImage}
+          alt="Main product image"
+          className="w-full rounded-lg shadow-md cursor-pointer"
+          width={500}
+          height={500}
+          onClick={onImageClick}
+          priority
+        />
+      </div>
+      
+      <div className="grid grid-cols-6 gap-2">
+        {[mainImage, ...thumbnails].map((image, index) => (
+          <div 
+            key={index} 
+            className={`relative border-2 rounded-lg overflow-hidden cursor-pointer
+              ${selectedImage === image ? 'border-blue-500' : 'border-transparent'}`}
+            onMouseEnter={() => setSelectedImage(image)}
+          >
+            <Image
+              src={image}
+              alt={`Thumbnail ${index}`}
+              width={80}
+              height={80}
+              className="w-full h-full object-cover"
+            />
+          </div>
+        ))}
+      </div>
+    </div>
+  );
+}
+
 export default function Home() {
   const router = useRouter();
 
@@ -31,70 +77,21 @@ export default function Home() {
   return (
     <div className="container mx-auto px-6 py-12">
       <div className="flex flex-col md:flex-row gap-8">
-        {/* Left column for images */}
-        <div className="md:w-1/2 space-y-4">
-          <Image
-            src={bottleImage}
-            alt="Adaptogen Blend Bottle"
-            width={500}
-            height={500}
-            className="w-full rounded-lg shadow-md cursor-pointer"
-            priority
-            onClick={handleClick}
+        <div className="md:w-1/2">
+          <ImageGallery
+            mainImage={bottleImage}
+            thumbnails={[
+              lifestyleImage1,
+              lifestyleImage2,
+              ingredientImage1,
+              ingredientImage2,
+              supplementFactsImage,
+              teaImage
+            ]}
+            onImageClick={handleClick}
           />
-          <div className="grid grid-cols-3 gap-2">
-            <Image
-              src={lifestyleImage1}
-              alt="Adaptogen Blend antioxidants benefits"
-              width={150}
-              height={150}
-              className="rounded-lg shadow-sm cursor-pointer"
-              onClick={handleClick}
-            />
-            <Image
-              src={lifestyleImage2}
-              alt="Adaptogen Blend ashwagandha spices"
-              width={150}
-              height={150}
-              className="rounded-lg shadow-sm cursor-pointer"
-              onClick={handleClick}
-            />
-            <Image
-              src={ingredientImage1}
-              alt="Adaptogen Blend collagen hair skin nail"
-              width={150}
-              height={150}
-              className="rounded-lg shadow-sm cursor-pointer"
-              onClick={handleClick}
-            />
-            <Image
-              src={ingredientImage2}
-              alt="Adaptogen Blend organic french lavender"
-              width={150}
-              height={150}
-              className="rounded-lg shadow-sm cursor-pointer"
-              onClick={handleClick}
-            />
-            <Image
-              src={supplementFactsImage}
-              alt="Adaptogen Blend organic mushroom chaga"
-              width={150}
-              height={150}
-              className="rounded-lg shadow-sm cursor-pointer"
-              onClick={handleClick}
-            />
-            <Image
-              src={teaImage}
-              alt="Adaptogen Blend Tea"
-              width={150}
-              height={150}
-              className="rounded-lg shadow-sm cursor-pointer"
-              onClick={handleClick}
-            />
-          </div>
         </div>
 
-        {/* Right column with updated text */}
         <div className="md:w-1/2">
           <h1 className="text-4xl font-bold text-purple-800 mb-4">
             Improve Your Wellness

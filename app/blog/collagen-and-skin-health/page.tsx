@@ -2,13 +2,13 @@ import Image from "next/image";
 import { Button } from "../../components/ui/button";
 import Link from "next/link";
 
-export default function MushroomPowerPage() {
+export default function CollagenSkinHealthPage() {
   return (
     <article className="container mx-auto px-6 py-12 max-w-3xl">
       <h1 className="text-4xl font-bold text-purple-800 mb-6">
-        The Magic of Medicinal Mushrooms
+        The Beauty Benefits of Collagen
       </h1>
-      <p className="text-sm text-gray-500 mb-6">Published on May 1, 2023</p>
+      <p className="text-sm text-gray-500 mb-6">Published on January 6, 2025</p>
 
       <Image
         src="/collagen.png"
@@ -20,100 +20,97 @@ export default function MushroomPowerPage() {
 
       <div className="prose max-w-none">
         <p>
-          For thousands of years, mushrooms have been revered not just for their
-          culinary value, but for their incredible health benefits. Today, were
-          rediscovering the power of these fascinating fungi and their potential
-          to revolutionize our approach to health and wellness.
+          From ancient beauty secrets to modern wellness trends, collagen has stood
+          the test of time as nature's answer to aging gracefully. This remarkable
+          protein doesn't just support our body's structure - it's the key to
+          maintaining youthful skin, strong nails, and healthy hair.
         </p>
 
         <h2 className="text-2xl font-semibold text-purple-700 mt-6 mb-4">
-          The Magic of Medicinal Mushrooms
+          Understanding Collagen's Power
         </h2>
         <p>
-          Medicinal mushrooms are packed with bioactive compounds that can
-          support various aspects of our health. From boosting immune function
-          to enhancing cognitive performance, these fungi are true superfoods.
+          As the most abundant protein in our bodies, collagen acts as the
+          building blocks for skin elasticity, nail strength, and hair growth.
+          While our natural collagen production decreases with age, supplementing
+          can help maintain these vital structures.
         </p>
 
         <h2 className="text-2xl font-semibold text-purple-700 mt-6 mb-4">
-          Top Medicinal Mushrooms and Their Benefits
+          Key Benefits for Your Beauty Routine
         </h2>
         <ul className="list-disc pl-6 mb-6">
           <li>
-            <strong>Reishi:</strong> Known as the "mushroom of immortality," it
-            supports immune function and may help reduce stress and fatigue.
+            <strong>Skin Rejuvenation:</strong> Helps diminish fine lines and
+            wrinkles while improving skin's hydration and elasticity naturally.
           </li>
           <li>
-            <strong>Lions Mane:</strong> Renowned for its potential to boost
-            cognitive function and support nerve health.
+            <strong>Nail Strength:</strong> Reinforces nail structure, reducing
+            brittleness and promoting healthy growth for longer, stronger nails.
           </li>
           <li>
-            <strong>Chaga:</strong> High in antioxidants, it may help lower
-            inflammation and support immune health.
+            <strong>Hair Health:</strong> Supports follicle strength and provides
+            essential proteins for thicker, more resilient hair growth.
           </li>
           <li>
-            <strong>Cordyceps:</strong> Popular among athletes for its potential
-            to enhance stamina and athletic performance.
+            <strong>Skin Texture:</strong> Enhances skin's natural repair process,
+            leading to smoother, more radiant complexion.
           </li>
           <li>
-            <strong>Turkey Tail:</strong> Known for its immune-boosting
-            properties and potential cancer-fighting abilities.
+            <strong>Overall Appearance:</strong> Creates a holistic improvement in
+            your natural beauty from within.
           </li>
         </ul>
 
         <h2 className="text-2xl font-semibold text-purple-700 mt-6 mb-4">
-          The Science Behind Mushroom Power
+          The Science of Beauty
         </h2>
         <p>
-          Medicinal mushrooms contain a variety of beneficial compounds,
-          including:
+          Collagen's effectiveness comes from its unique composition of amino acids:
         </p>
         <ul className="list-disc pl-6 mb-6">
           <li>
-            <strong>Beta-glucans:</strong> These complex sugars are known for
-            their immune-modulating effects.
+            <strong>Glycine:</strong> Essential for skin repair and maintenance.
           </li>
           <li>
-            <strong>Triterpenes:</strong> Found in reishi mushrooms, these
-            compounds may have anti-inflammatory and anti-cancer properties.
+            <strong>Proline:</strong> Supports skin's natural healing and renewal.
           </li>
           <li>
-            <strong>Ergothioneine:</strong> A powerful antioxidant that may help
-            protect against cellular damage.
+            <strong>Hydroxyproline:</strong> Crucial for skin stability and structure.
           </li>
         </ul>
 
         <h2 className="text-2xl font-semibold text-purple-700 mt-6 mb-4">
-          Incorporating Medicinal Mushrooms into Your Routine
+          Making Collagen Work for You
         </h2>
-        <p>There are many ways to enjoy the benefits of medicinal mushrooms:</p>
+        <p>Incorporate collagen into your routine through various forms:</p>
         <ul className="list-disc pl-6 mb-6">
-          <li>Powders: Easy to add to smoothies, coffee, or tea</li>
-          <li>Capsules: Convenient for daily supplementation</li>
-          <li>Tinctures: Liquid extracts for quick absorption</li>
-          <li>Whole mushrooms: Can be cooked and enjoyed in various dishes</li>
+          <li>Hydrolyzed collagen powder for easy mixing into beverages</li>
+          <li>Targeted collagen supplements for specific beauty goals</li>
+          <li>Collagen-rich bone broth for a natural approach</li>
+          <li>Collagen-infused skincare products for external support</li>
         </ul>
 
         <p>
-          Our Adaptogen Blend incorporates a powerful mix of medicinal
-          mushrooms, providing a convenient way to harness their benefits in
-          your daily routine.
+          Our Premium Collagen Complex offers a scientifically formulated blend
+          that targets all aspects of beauty enhancement, from skin elasticity
+          to hair strength.
         </p>
 
         <div className="bg-purple-100 border-l-4 border-purple-500 text-purple-700 p-4 my-6">
-          <p className="font-bold">Important Note:</p>
+          <p className="font-bold">Beauty Tip:</p>
           <p>
-            While medicinal mushrooms are generally safe, always consult with a
-            healthcare professional before starting any new supplement regimen,
-            especially if you have existing health conditions or are taking
-            medications.
+            For optimal results, combine collagen supplementation with a healthy
+            diet, proper hydration, and good skincare habits. Consistency is key
+            - most people notice significant improvements within 4-8 weeks of
+            regular use.
           </p>
         </div>
 
         <p>
-          Ready to experience the power of medicinal mushrooms? Our Adaptogen
-          Blend combines the best of these fantastic fungi with other powerful
-          adaptogens for a comprehensive approach to your health and wellness.
+          Ready to transform your beauty routine from the inside out? Our Premium
+          Collagen Complex provides all the essential building blocks your body
+          needs for radiant skin, stronger nails, and healthier hair.
         </p>
       </div>
 

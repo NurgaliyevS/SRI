@@ -34,10 +34,9 @@ const blogPosts = [
     id: 4,
     title: "Lavender: Natures Stress-Reliever",
     excerpt:
-      "Uncover the calming properties of lavender and how it can improve your sleep relaxation.",
+      "In our hectic modern world, finding natural ways to unwind becomes more valuable than ever.",
     date: "2023-04-15",
-    image:
-      "https://res.cloudinary.com/dp5ules9k/image/upload/v1686261648/Tmolecule/organic-lavender_ghijkl.jpg",
+    image: "/lavender.jpg",
     slug: "lavender-stress-relief",
   },
 ];

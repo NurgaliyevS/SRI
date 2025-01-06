@@ -6,9 +6,9 @@ export default function CollagenSkinHealthPage() {
   return (
     <article className="container mx-auto px-6 py-12 max-w-3xl">
       <h1 className="text-4xl font-bold text-purple-800 mb-6">
-        The Beauty Benefits of Collagen
+        The Science Behind Collagen and Skin Health
       </h1>
-      <p className="text-sm text-gray-500 mb-6">Published on January 6, 2025</p>
+      <p className="text-sm text-gray-500 mb-6">Published on May 5, 2023</p>
 
       <Image
         src="/collagen.png"
@@ -20,10 +20,10 @@ export default function CollagenSkinHealthPage() {
 
       <div className="prose max-w-none">
         <p>
-          From ancient beauty secrets to modern wellness trends, collagen has stood
-          the test of time as nature's answer to aging gracefully. This remarkable
-          protein doesn't just support our body's structure - it's the key to
-          maintaining youthful skin, strong nails, and healthy hair.
+          From ancient beauty secrets to modern wellness trends, collagen has
+          stood the test of time as nature's answer to aging gracefully. This
+          remarkable protein doesn't just support our body's structure - it's
+          the key to maintaining youthful skin, strong nails, and healthy hair.
         </p>
 
         <h2 className="text-2xl font-semibold text-purple-700 mt-6 mb-4">
@@ -32,8 +32,8 @@ export default function CollagenSkinHealthPage() {
         <p>
           As the most abundant protein in our bodies, collagen acts as the
           building blocks for skin elasticity, nail strength, and hair growth.
-          While our natural collagen production decreases with age, supplementing
-          can help maintain these vital structures.
+          While our natural collagen production decreases with age,
+          supplementing can help maintain these vital structures.
         </p>
 
         <h2 className="text-2xl font-semibold text-purple-700 mt-6 mb-4">
@@ -49,16 +49,16 @@ export default function CollagenSkinHealthPage() {
             brittleness and promoting healthy growth for longer, stronger nails.
           </li>
           <li>
-            <strong>Hair Health:</strong> Supports follicle strength and provides
-            essential proteins for thicker, more resilient hair growth.
+            <strong>Hair Health:</strong> Supports follicle strength and
+            provides essential proteins for thicker, more resilient hair growth.
           </li>
           <li>
-            <strong>Skin Texture:</strong> Enhances skin's natural repair process,
-            leading to smoother, more radiant complexion.
+            <strong>Skin Texture:</strong> Enhances skin's natural repair
+            process, leading to smoother, more radiant complexion.
           </li>
           <li>
-            <strong>Overall Appearance:</strong> Creates a holistic improvement in
-            your natural beauty from within.
+            <strong>Overall Appearance:</strong> Creates a holistic improvement
+            in your natural beauty from within.
           </li>
         </ul>
 
@@ -66,17 +66,20 @@ export default function CollagenSkinHealthPage() {
           The Science of Beauty
         </h2>
         <p>
-          Collagen's effectiveness comes from its unique composition of amino acids:
+          Collagen's effectiveness comes from its unique composition of amino
+          acids:
         </p>
         <ul className="list-disc pl-6 mb-6">
           <li>
             <strong>Glycine:</strong> Essential for skin repair and maintenance.
           </li>
           <li>
-            <strong>Proline:</strong> Supports skin's natural healing and renewal.
+            <strong>Proline:</strong> Supports skin's natural healing and
+            renewal.
           </li>
           <li>
-            <strong>Hydroxyproline:</strong> Crucial for skin stability and structure.
+            <strong>Hydroxyproline:</strong> Crucial for skin stability and
+            structure.
           </li>
         </ul>
 
@@ -108,9 +111,9 @@ export default function CollagenSkinHealthPage() {
         </div>
 
         <p>
-          Ready to transform your beauty routine from the inside out? Our Premium
-          Collagen Complex provides all the essential building blocks your body
-          needs for radiant skin, stronger nails, and healthier hair.
+          Ready to transform your beauty routine from the inside out? Our
+          Premium Collagen Complex provides all the essential building blocks
+          your body needs for radiant skin, stronger nails, and healthier hair.
         </p>
       </div>
 

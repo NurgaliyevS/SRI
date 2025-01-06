@@ -6,13 +6,13 @@ export default function LavenderStressRelief() {
   return (
     <article className="container mx-auto px-6 py-12 max-w-3xl">
       <h1 className="text-4xl font-bold text-purple-800 mb-6">
-        The Beauty Benefits of Collagen
+        Lavender: Natures Stress-Reliever
       </h1>
-      <p className="text-sm text-gray-500 mb-6">Published on January 6, 2025</p>
+      <p className="text-sm text-gray-500 mb-6">Published on April 15, 2023</p>
 
       <Image
-        src="/collagen.png"
-        alt="Collagen and Skin Health"
+        src="/lavender.jpg"
+        alt="Lavender for Stress Relief"
         width={800}
         height={600}
         className="rounded-lg mb-6"
@@ -20,97 +20,101 @@ export default function LavenderStressRelief() {
 
       <div className="prose max-w-none">
         <p>
-          From ancient beauty secrets to modern wellness trends, collagen has stood
-          the test of time as nature's answer to aging gracefully. This remarkable
-          protein doesn't just support our body's structure - it's the key to
-          maintaining youthful skin, strong nails, and healthy hair.
+          In our hectic modern world, finding natural ways to unwind becomes
+          more valuable than ever. Lavender has been nature's answer to stress
+          for centuries, offering a gentle yet effective way to find calm in
+          chaos. Let's explore why this purple powerhouse deserves a spot in
+          your stress-relief toolkit.
         </p>
 
         <h2 className="text-2xl font-semibold text-purple-700 mt-6 mb-4">
-          Understanding Collagen's Power
+          Why Lavender Works Wonders
         </h2>
         <p>
-          As the most abundant protein in our bodies, collagen acts as the
-          building blocks for skin elasticity, nail strength, and hair growth.
-          While our natural collagen production decreases with age, supplementing
-          can help maintain these vital structures.
+          Your nose knows best when it comes to lavender's calming effects. That
+          sweet, floral scent isn't just pleasant - it actually sends signals to
+          your brain's relaxation center, helping you shift from stress to
+          serenity naturally and effectively.
         </p>
 
         <h2 className="text-2xl font-semibold text-purple-700 mt-6 mb-4">
-          Key Benefits for Your Beauty Routine
+          Real Benefits You Can Feel
         </h2>
         <ul className="list-disc pl-6 mb-6">
           <li>
-            <strong>Skin Rejuvenation:</strong> Helps diminish fine lines and
-            wrinkles while improving skin's hydration and elasticity naturally.
+            <strong>Better Sleep:</strong> Helps quiet your racing mind and
+            promotes deeper, more restful sleep naturally.
           </li>
           <li>
-            <strong>Nail Strength:</strong> Reinforces nail structure, reducing
-            brittleness and promoting healthy growth for longer, stronger nails.
+            <strong>Stress Reduction:</strong> Calms your nervous system and
+            helps lower those stress-induced heart palpitations.
           </li>
           <li>
-            <strong>Hair Health:</strong> Supports follicle strength and provides
-            essential proteins for thicker, more resilient hair growth.
+            <strong>Mood Enhancement:</strong> Lifts your spirits and helps
+            create a more positive mindset throughout your day.
           </li>
           <li>
-            <strong>Skin Texture:</strong> Enhances skin's natural repair process,
-            leading to smoother, more radiant complexion.
+            <strong>Physical Relaxation:</strong> Eases tension in your body and
+            helps those tight shoulders finally drop.
           </li>
           <li>
-            <strong>Overall Appearance:</strong> Creates a holistic improvement in
-            your natural beauty from within.
+            <strong>Mental Clarity:</strong> Helps clear the mental fog that
+            stress often brings along.
           </li>
         </ul>
 
         <h2 className="text-2xl font-semibold text-purple-700 mt-6 mb-4">
-          The Science of Beauty
+          The Natural Advantage
         </h2>
         <p>
-          Collagen's effectiveness comes from its unique composition of amino acids:
+          What makes lavender so special? It's all about these natural
+          compounds:
         </p>
         <ul className="list-disc pl-6 mb-6">
           <li>
-            <strong>Glycine:</strong> Essential for skin repair and maintenance.
+            <strong>Linalool:</strong> The compound responsible for that famous
+            calming effect.
           </li>
           <li>
-            <strong>Proline:</strong> Supports skin's natural healing and renewal.
+            <strong>Linalyl Acetate:</strong> Works with your body's natural
+            relaxation response.
           </li>
           <li>
-            <strong>Hydroxyproline:</strong> Crucial for skin stability and structure.
+            <strong>Terpenes:</strong> Help soothe both mind and body naturally.
           </li>
         </ul>
 
         <h2 className="text-2xl font-semibold text-purple-700 mt-6 mb-4">
-          Making Collagen Work for You
+          Easy Ways to Use Lavender
         </h2>
-        <p>Incorporate collagen into your routine through various forms:</p>
+        <p>Make lavender part of your daily routine:</p>
         <ul className="list-disc pl-6 mb-6">
-          <li>Hydrolyzed collagen powder for easy mixing into beverages</li>
-          <li>Targeted collagen supplements for specific beauty goals</li>
-          <li>Collagen-rich bone broth for a natural approach</li>
-          <li>Collagen-infused skincare products for external support</li>
+          <li>Add essential oil drops to your evening bath</li>
+          <li>Keep a lavender sachet by your pillow</li>
+          <li>Brew a calming cup of lavender tea</li>
+          <li>Use a lavender-infused room spray</li>
         </ul>
 
         <p>
-          Our Premium Collagen Complex offers a scientifically formulated blend
-          that targets all aspects of beauty enhancement, from skin elasticity
-          to hair strength.
+          Our Premium Lavender Collection brings you the finest quality lavender
+          products, carefully crafted to help you find your calm place,
+          naturally and effectively.
         </p>
 
         <div className="bg-purple-100 border-l-4 border-purple-500 text-purple-700 p-4 my-6">
-          <p className="font-bold">Beauty Tip:</p>
+          <p className="font-bold">Stress-Relief Tip:</p>
           <p>
-            For optimal results, combine collagen supplementation with a healthy
-            diet, proper hydration, and good skincare habits. Consistency is key
-            - most people notice significant improvements within 4-8 weeks of
-            regular use.
+            For best results, make lavender part of your daily wind-down
+            routine. Try using it at the same time each day - your body will
+            start to associate the scent with relaxation, making it even more
+            effective over time.
           </p>
         </div>
 
         <p>
-          Ready to transform your beauty routine from the inside out? Our Premium
-          Collagen Complex provides all the essential building blocks your body
-          needs for radiant skin, stronger nails, and healthier hair.
+          Ready to discover your natural path to peace? Our Premium Lavender
+          Collection offers everything you need to create your own stress-free
+          sanctuary at home or on the go.
         </p>
       </div>
 
@@ -119,7 +123,7 @@ export default function LavenderStressRelief() {
           asChild
           className="bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600 transition-all duration-300"
         >
-          <Link href="/products">Discover Our Collagen Products</Link>
+          <Link href="/products">Explore Our Lavender Collection</Link>
         </Button>
       </div>
     </article>

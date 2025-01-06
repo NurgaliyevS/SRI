@@ -122,7 +122,7 @@ export default function MushroomPowerPage() {
           asChild
           className="bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600 transition-all duration-300"
         >
-          <Link href="/products">Discover Our Adaptogen Blend</Link>
+          <Link href="/products">Discover Our Medicinal Mushrooms</Link>
         </Button>
       </div>
     </article>

@@ -18,8 +18,7 @@ const blogPosts = [
     excerpt:
       "Find out why these special mushrooms are nature's best health helpers",
     date: "2023-05-15",
-    image:
-      "https://res.cloudinary.com/dp5ules9k/image/upload/v1686261648/Tmolecule/organic-mushrooms_abcdef.jpg",
+    image: "/mushroom.jpg",
     slug: "mushroom-power",
   },
   {
@@ -28,8 +27,7 @@ const blogPosts = [
     excerpt:
       "Explore the role of collagen in maintaining youthful and healthy skin.",
     date: "2023-05-01",
-    image:
-      "https://res.cloudinary.com/dp5ules9k/image/upload/v1686261648/Tmolecule/collagen_mnopqr.jpg",
+    image: "/collagen.png",
     slug: "collagen-and-skin-health",
   },
   {

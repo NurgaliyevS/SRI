@@ -8,11 +8,11 @@ export default function MushroomPowerPage() {
       <h1 className="text-4xl font-bold text-purple-800 mb-6">
         The Magic of Medicinal Mushrooms
       </h1>
-      <p className="text-sm text-gray-500 mb-6">Published on May 15, 2023</p>
+      <p className="text-sm text-gray-500 mb-6">Published on May 1, 2023</p>
 
       <Image
-        src="/mushroom.jpg"
-        alt="Various medicinal mushrooms"
+        src="/collagen.png"
+        alt="Collagen and Skin Health"
         width={800}
         height={600}
         className="rounded-lg mb-6"
@@ -122,7 +122,7 @@ export default function MushroomPowerPage() {
           asChild
           className="bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600 transition-all duration-300"
         >
-          <Link href="/products">Discover Our Adaptogen Blend</Link>
+          <Link href="/products">Discover Our Collagen Products</Link>
         </Button>
       </div>
     </article>

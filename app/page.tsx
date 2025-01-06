@@ -1,6 +1,9 @@
+"use client";
+
 import Image from "next/image";
 import Link from "next/link";
 import { Button } from "./components/ui/button";
+import { useRouter } from "next/navigation";
 
 const bottleImage =
   "https://res.cloudinary.com/dp5ules9k/image/upload/v1733093773/Tmolecule/BOTTLE_hb6jya.png";
@@ -18,6 +21,13 @@ const teaImage =
   "https://res.cloudinary.com/dp5ules9k/image/upload/v1733094241/Tmolecule/1-BANNER_2000x500_bf0c7d47-9398-485e-9fbf-2e15e7299562_yqz32q.jpg";
 
 export default function Home() {
+  const router = useRouter();
+
+  const handleClick = (e: any) => {
+    e.preventDefault();
+    router.push("/products");
+  };
+
   return (
     <div className="container mx-auto px-6 py-12">
       <div className="flex flex-col md:flex-row gap-8">
@@ -28,8 +38,9 @@ export default function Home() {
             alt="Adaptogen Blend Bottle"
             width={500}
             height={500}
-            className="w-full rounded-lg shadow-md"
+            className="w-full rounded-lg shadow-md cursor-pointer"
             priority
+            onClick={handleClick}
           />
           <div className="grid grid-cols-3 gap-2">
             <Image
@@ -37,42 +48,48 @@ export default function Home() {
               alt="Adaptogen Blend antioxidants benefits"
               width={150}
               height={150}
-              className="rounded-lg shadow-sm"
+              className="rounded-lg shadow-sm cursor-pointer"
+              onClick={handleClick}
             />
             <Image
               src={lifestyleImage2}
               alt="Adaptogen Blend ashwagandha spices"
               width={150}
               height={150}
-              className="rounded-lg shadow-sm"
+              className="rounded-lg shadow-sm cursor-pointer"
+              onClick={handleClick}
             />
             <Image
               src={ingredientImage1}
               alt="Adaptogen Blend collagen hair skin nail"
               width={150}
               height={150}
-              className="rounded-lg shadow-sm"
+              className="rounded-lg shadow-sm cursor-pointer"
+              onClick={handleClick}
             />
             <Image
               src={ingredientImage2}
               alt="Adaptogen Blend organic french lavender"
               width={150}
               height={150}
-              className="rounded-lg shadow-sm"
+              className="rounded-lg shadow-sm cursor-pointer"
+              onClick={handleClick}
             />
             <Image
               src={supplementFactsImage}
               alt="Adaptogen Blend organic mushroom chaga"
               width={150}
               height={150}
-              className="rounded-lg shadow-sm"
+              className="rounded-lg shadow-sm cursor-pointer"
+              onClick={handleClick}
             />
             <Image
               src={teaImage}
               alt="Adaptogen Blend Tea"
               width={150}
               height={150}
-              className="rounded-lg shadow-sm"
+              className="rounded-lg shadow-sm cursor-pointer"
+              onClick={handleClick}
             />
           </div>
         </div>
@@ -150,7 +167,8 @@ export default function Home() {
               alt="Adaptogen Blend in daily routine"
               width={500}
               height={300}
-              className="rounded-lg shadow-md"
+              className="rounded-lg shadow-md cursor-pointer"
+              onClick={handleClick}
             />
             <p className="mt-4 text-gray-600">
               Take <strong>Adaptogen Blend</strong> daily with breakfast - feel
@@ -163,7 +181,8 @@ export default function Home() {
               alt="Active lifestyle with Adaptogen Blend"
               width={500}
               height={300}
-              className="rounded-lg shadow-md"
+              className="rounded-lg shadow-md cursor-pointer"
+              onClick={handleClick}
             />
             <p className="mt-4 text-gray-600">
               Support your active lifestyle with the power of adaptogens.

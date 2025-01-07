@@ -9,6 +9,9 @@ export const metadata = {
   title: "Adaptogen Blend",
   description:
     "Premium adaptogen blend with Organic Mushrooms, Organic French Lavender, and Collagen for your health and wellness.",
+  icons: {
+    icon: '/tmolecule.webp',
+  },
 };
 
 export default function RootLayout({

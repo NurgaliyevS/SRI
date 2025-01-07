@@ -27,7 +27,11 @@ interface ImageGalleryProps {
   onImageClick: (e: React.MouseEvent<HTMLImageElement, MouseEvent>) => void;
 }
 
-function ImageGallery({ mainImage, thumbnails, onImageClick }: ImageGalleryProps) {
+function ImageGallery({
+  mainImage,
+  thumbnails,
+  onImageClick,
+}: ImageGalleryProps) {
   const [selectedImage, setSelectedImage] = useState(mainImage);
 
   return (
@@ -43,13 +47,17 @@ function ImageGallery({ mainImage, thumbnails, onImageClick }: ImageGalleryProps
           priority
         />
       </div>
-      
+
       <div className="grid grid-cols-6 gap-2">
         {[mainImage, ...thumbnails].map((image, index) => (
-          <div 
-            key={index} 
+          <div
+            key={index}
             className={`relative border-2 rounded-lg overflow-hidden cursor-pointer
-              ${selectedImage === image ? 'border-blue-500' : 'border-transparent'}`}
+              ${
+                selectedImage === image
+                  ? "border-blue-500"
+                  : "border-transparent"
+              }`}
             onMouseEnter={() => setSelectedImage(image)}
           >
             <Image
@@ -86,7 +94,7 @@ export default function Home() {
               ingredientImage1,
               ingredientImage2,
               supplementFactsImage,
-              teaImage
+              teaImage,
             ]}
             onImageClick={handleClick}
           />
@@ -152,6 +160,33 @@ export default function Home() {
           </ul>
         </div>
       </div>
+
+      <section className="mt-16">
+        <h2 className="text-3xl font-semibold text-purple-800 mb-6">
+          Customer Reviews
+        </h2>
+        <div className="bg-white rounded-lg shadow-md p-6">
+          <div className="flex items-center mb-4">
+            <span className="text-yellow-400 mr-2">★★★★★</span>
+            <span className="font-semibold">5.0 out of 5 stars</span>
+          </div>
+          <h3 className="text-xl font-semibold text-purple-700 mb-2">
+            Pleasant surprises
+          </h3>
+          <p className="text-gray-600 mb-2">
+            I wanted to try a mushroom tea. a freind recommend this one to me.
+            Upon opening it the lavender smell was terrific a Beautiful blend of
+            mushrooms seems to be on the money. After a few days I notice my
+            joints and achy pains seem to get less intense didn't go away but
+            felt much better. I drink it with honey I recommend it. good tea.
+            Bought for a coffee alternative that turned out to have joint
+            inflammation benefits. Pleasant surprise
+          </p>
+          <p className="text-sm text-gray-500">
+            Reviewed in the United States on May 11, 2024 by Mario D.
+          </p>
+        </div>
+      </section>
 
       <section className="mt-16">
         <h2 className="text-3xl font-semibold text-purple-800 mb-6">

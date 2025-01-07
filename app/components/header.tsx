@@ -6,7 +6,7 @@ export default function Header() {
       <nav className="container mx-auto px-6 py-6">
         <div className="flex justify-between items-center">
           <Link href="/" className="text-2xl font-bold text-purple-800">
-            TMolecule
+            <img src="/tmolecule.avif" alt="TMolecule"></img>
           </Link>
           <div className="flex items-center space-x-4">
             <Link

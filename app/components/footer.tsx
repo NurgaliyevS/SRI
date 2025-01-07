@@ -7,9 +7,7 @@ export default function Footer() {
       <div className="container mx-auto px-6 py-8">
         <div className="flex flex-wrap justify-between">
           <div className="w-full md:w-1/5 mb-6 md:mb-0">
-            <h3 className="text-purple-800 text-lg font-semibold mb-2">
-              TMolecule
-            </h3>
+            <img src="/tmolecule.avif" alt="TMolecule" className="mb-6" />
             <p className="text-gray-600">Improve Your Wellness</p>
           </div>
           <div className="w-full md:w-1/5 mb-6 md:mb-0">
